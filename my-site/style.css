@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    
+}
+
+.header-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+}
+
+.txtMessage {
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    text-align: right;
+    padding: 0.2em;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 0em;
+    width: 100%;
+    background-color: rgb(6, 51, 198);
+    font-size: 1.5em;
+
+}
+
+.grade-input {
+  
+}
+
+.showGrade {
+    background-color: yellow;
+    width: 100%;
+    padding: 1em;
+    display: none;
+}
+
+
+
+.bot-showGrade {
+   width: 100%;
+   text-align: left;
+}
+
+.bot-showGrade button {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    margin: 0.3em;
+   
+}
+
+.show-grading-system {
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    padding: 1em;
+    display: none;
+    
+    
+}
+
+.show-grading-system div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.show-grading-system p, h4{
+    font-size: 0.8em;
+    margin: 0.5em;
+}
+
+
+
+button {
+  
+}
+
+button.btnShowGS {
+    font-size: 0.6em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.btnClick {
+    padding: 0.5em 1em;
+    margin: 1em;
+    font-size: 1.1em
+}
+
+.retake {
+    display: none;
+    background-color: transparent;
+    border: 0;
+    font-size: larger;
+}
+
+.about-grade {
+    width: 100%;
+}
+
+@media only screen and (min-width: 700px){
+   
+    * {
+        font-size: 1.1em;
+    }
+
+    .header-text {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page {
+      
+       width: auto;
+       margin-top: 2em;
+    }
+
+    .inputs {
+        flex-direction: row;
+        font-size: 1.1em;
+        height: 8em;
+        justify-content: space-around;
+    }
+
+    input {
+        width: 5em;
+        margin: 0 1em;
+        font-weight: bold;
+    }
+
+    .showGrade {
+        padding: 1.5em;
+    }
+}
+
+
+
